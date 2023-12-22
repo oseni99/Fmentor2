@@ -31,6 +31,7 @@ body{
    margin-left: auto;
    margin-right: auto;
    margin-top: 2rem;
+   box-shadow: 1px 0px 20px 2px rgba(0,0,0,0.112);
 }
 
 .results{
@@ -64,6 +65,7 @@ body{
     font-size: 2rem; 
     text-align: center;
     background-color:  hsla(241, 72%, 46%, 0.623);
+    background: linear-gradient(hsla(256,72%,46%,1),hsla(241,72%,46%,0));
 }
 
 .score_total{
@@ -96,7 +98,7 @@ body{
   width: 200px;
   height: 40px;
   border-radius: 10px;
-  background-color: hsla(0, 100%, 67%, 0.061);
+  background-color: hsla(0, 100%, 67%, 0.1);
 }
 
 .reaction h4{
@@ -112,11 +114,11 @@ body{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    background-color:  hsla(39, 92%, 52%, 0.113);
+    background-color:  hsla(39, 100%, 56%, 0.1);
 }
 
 .memory h4{
-    color:  hsl(39, 95%, 43%);
+    color:  hsl(39, 100%, 56%);
     font-weight: 800;
 }
 
@@ -128,7 +130,7 @@ body{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    background-color: hsla(166, 100%, 37%, 0.05);
+    background-color: hsla(166, 100%, 37%, 0.1);
 }
 
 .verbal h4{
@@ -144,7 +146,7 @@ body{
     width: 200px;
     height: 40px;
     border-radius: 10px;
-    background-color: hsla(234, 85%, 45%, 0.072);
+    background-color: hsla(234, 85%, 45%, 0.1);
 }
 
 .visual h4{
@@ -161,8 +163,12 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.664);
+    background-color: hsl(224, 30%, 27%);
     color: white;
+}
+
+.footer:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 72%, 46%));
 }
 
 @media screen and (max-width:430px){
