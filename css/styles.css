@@ -52,7 +52,7 @@ body{
 }
 
 .score{
-    border: 2px solid hsla(256, 72%, 46%, 1);
+    border: 1px medium hsla(256, 72%, 46%, 1);
     
     height: 150px;
     width: 150px;
